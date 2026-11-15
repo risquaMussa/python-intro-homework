@@ -3,7 +3,7 @@ numbers = [42, 17, 83, 5, 61, 29, 74, 8, 55, 93, 31,
             66, 14, 47, 78, 3, 59, 22, 86, 40]
 
 #find minimum
-def find_min(number):
+def find_min(numbers):
     smallest = numbers[0]
 
     for number in numbers:
@@ -12,7 +12,7 @@ def find_min(number):
     return smallest
 
 #find max
-def find_max(number):
+def find_max(numbers):
     largest = numbers[0]
 
     for number in numbers:
