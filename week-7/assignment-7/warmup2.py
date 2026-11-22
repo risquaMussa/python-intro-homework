@@ -3,8 +3,7 @@
 import csv
 
 with open("../data/students.csv", "r") as file:
-    #Reads CSV rows using column names
-    #eader = csv.reader(file) 
+   
     reader = csv.DictReader(file)
 
 
