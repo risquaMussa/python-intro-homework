@@ -8,6 +8,6 @@ with open("../data/students.csv", "r") as file:
     reader = csv.DictReader(file)
 
 
-    next(reader)
+  
     for student in reader:
         print(f"{student['name']}:{student['grade']}")
