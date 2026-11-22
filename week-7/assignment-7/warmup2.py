@@ -9,4 +9,4 @@ with open("../data/students.csv", "r") as file:
 
   
     for student in reader:
-        print(f"{student['name']}:{student['grade']}")
+        print(f"{student['name']}: {student['score']}")
